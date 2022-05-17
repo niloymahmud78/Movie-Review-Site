@@ -4,7 +4,7 @@
       <div class="text-container container">
           <div class="text">
               <span class="mini-heading">Now Streaming</span>
-              <h1><strong>Now</strong>Streaming</h1>
+              <h1 style="font-size:140px; color: crimson;"><strong>Now</strong>Streaming</h1>
               <a href="#movie-grid" class="button">View Movies</a>
           </div>
       </div>
@@ -57,10 +57,11 @@ export default {
     }
     .mini-heading{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 28px;
         text-transform: uppercase;
         color: #c92502;
         margin-bottom: 8px;
+        color:#fff;
         @media (min-width: 750px) {
             font-size: 22px;
 
